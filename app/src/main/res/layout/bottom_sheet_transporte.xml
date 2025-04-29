@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnPie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ir_a_pie"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBici"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ir_en_bicicleta"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ir_en_autob_s"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:padding="14dp" />
+
+</LinearLayout>
