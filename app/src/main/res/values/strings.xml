@@ -4,4 +4,9 @@
     <string name="registrarse">Registrarse</string>
     <string name="usuario">Usuario</string>
     <string name="contrase_a">Contraseña</string>
+    <string name="ir_a_pie">Ir a pie</string>
+    <string name="ir_en_bicicleta">Ir en bicicleta</string>
+    <string name="ir_en_autob_s">Ir en autobús</string>
+    <string name="cambiar_modo_de_transporte">Cambiar modo de transporte</string>
+    <string name="cambiar_modo_de_transporteee">Cambiar modo de transporte</string>
 </resources>

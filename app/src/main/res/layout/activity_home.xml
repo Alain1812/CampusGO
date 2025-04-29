@@ -1,20 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    android:background="#F5F5F5">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="¡Bienvenido a HomeActivity!"
-        android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Logo CampusGO -->
+        <ImageView
+            android:id="@+id/logoHome"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_campusgo"
+            android:contentDescription="Logo CampusGO"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botón 1: Mapa y rutas -->
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver mapa y rutas"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón 2: Horarios de autobuses -->
+        <Button
+            android:id="@+id/btnHorarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar horarios de autobuses"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón 3: Alarmas -->
+        <Button
+            android:id="@+id/btnAlarmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurar alarmas"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón 4: Historial -->
+        <Button
+            android:id="@+id/btnHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver historial de rutas"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:padding="14dp" />
+
+    </LinearLayout>
+</ScrollView>
